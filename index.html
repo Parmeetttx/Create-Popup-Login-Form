@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Up Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<button class="btn btn-open">View Form</button>
+
+<div class="pop">
+    <div class="pop-up-box">
+        <div class="pop-up-header">
+            <div class="pop-up-img">
+                <img src="img/img.png" alt="">
+                <h1>Fill Details</h1>
+            </div>
+            <button class="btn btn-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="pop-up-body">
+            <div class="form-div">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Phone">
+                    <input type="text" placeholder="Email">
+                    <textarea rows="3" placeholder="Message"></textarea>
+                    <button class="btn btn-submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="pop-up-footer">
+            <a href="">Other Links</a>
+            <a href="">About Us</a>
+        </div>
+    </div>
+</div>
+
+<!-- add this js file path -->
+<script src="script.js"></script>
+</body>
+</html>
